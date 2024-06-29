@@ -15,7 +15,7 @@ body{
 }
 /*Navegador*/
 .navegador{
-    background-color: white;
+    background-color: #F2F4FC;
     height: 80px;
     width: 100%;
     display: flex;
@@ -28,18 +28,24 @@ body{
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    
 }
-li{
+.options{
     margin-right: 20px;
 }
-li a{
+
+.first{
+    color: #072AC8 !important;
+}
+.options a{
     text-decoration: none;
     color: #6B708D;
     font-size: 17px;
     font-weight: bold;
 }
-li a:hover{
+.options a:hover{
     color: #072AC8;
+    text-decoration: underline;
 }
 .navegador img{
     width: 90px;
@@ -71,14 +77,20 @@ header{
 .logo img{
     width: 60px;
 }
-.menu{
-    
-}
 .logo{
     width: 75%;
 }
 .botonNav{
     width: 75%;
+}
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.toggle-checkbox {
+    display: none;
 }
 /* Baner principal*/
  #Hero{
@@ -149,7 +161,7 @@ header{
     margin-top: 250px;
     background-color: transparent;
     position: absolute;
-    left: 240px;
+    left: 220px;
  }
  /*Logos*/
  .logos{
@@ -189,7 +201,7 @@ header{
     margin-bottom: 100px;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 95%;
+    width: 90%;
  }
  .RecentProjects img{
     width: 100%;
@@ -219,10 +231,12 @@ header{
  .card h3{
     font-size: 25px;
     margin-bottom: 10px;
+    background-color: white;
  }
  .card p{
     color: #6B708D;
     margin-bottom: 40px;
+    background-color: white;
  }
  .card a{
     text-decoration: none;
@@ -349,3 +363,391 @@ margin-left: 10px;
 .Clients .name p{
     color: white;
 }
+/* Services*/
+
+.Services img{
+    width: 10%;
+    
+    margin-bottom: 0px;
+    background-color: #A2D6F9;
+    border-radius: 50%;
+}
+.serviceImage{
+    background-image: url(./services-section/icons/1.svg);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #D1EDFF;
+}
+.serviceImage1{
+    background-image: url(./services-section/icons/2.svg);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #D1EDFF;
+}
+.serviceImage2{
+    background-image: url(./services-section/icons/3.svg);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #D1EDFF;
+}
+.Services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.cards2{
+    display: flex;
+ }
+ .card2{
+    display: flex;
+    background-color:white;
+    margin: 30px;
+    background-color: white;
+    margin: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px 15px;
+    height: 290px;
+ }
+ .card2:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.8);
+    transition: box-shadow 0.3s ease;
+ }
+ .card2 h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    background-color: white;
+ }
+ .serviceImageCont{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+ }
+ .card2 p{
+    color: #6B708D;
+    margin-bottom: 40px;
+    background-color: white;
+ }
+ .card2 a{
+    text-decoration: none;
+    color: #072AC8;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+ }
+ .Services h2{
+    font-size: 32px;
+    line-height: 60px;
+    
+    margin-left: 50px;
+ }
+ /*Newsletter*/
+
+ .Cuestions{
+    background-color: #fce300;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+ .CuestionsText{
+    background-color: #fce300;
+    display: flex;
+    flex-direction: column;
+ }
+ .CuestionsTextContent{
+    display: flex;
+    background-color: #fce300;
+ }
+ .CuestionsTextContent h2{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fce300;
+ }
+ .CuestionsTextContent p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #fce300;
+ }
+
+ input{
+    width: 1200px;
+    height: 50px;
+ }
+ .mailButton{
+    width: 200px;
+    height: 54px;
+    margin-left: 20px;
+    background-color: #072AC8;
+    color: white;
+    font-size: 22px;
+    border: none;
+ }
+ .CuestionsMail{
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 0px;
+ }
+ label{
+    width: 45%;
+    background-color: #fce300;
+ }
+ .mailButtonCont{
+    background-color: #fce300;
+ }
+ input[type="email"] {
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    padding: 10px 10px 10px 40px; /* Espacio para la imagen */
+    box-sizing: border-box;
+    background: url('./newsletter/icon/mail.svg') no-repeat 10px center;
+    background-size: 40px 40px; /* Ajusta el tamaño de la imagen */
+  }
+/* footer*/
+footer{
+    display: flex;
+   
+    margin-top: 150px;
+    margin-bottom: 5%;
+}
+.logoFooter{
+    width: 100px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+footer p{
+    margin-left: 20%;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+
+  .links li {
+    flex: 0 0 28%; /* Tres columnas */
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2%;
+
+  }
+
+  .links li a {
+    text-decoration: none;
+    color:#383535;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  .links li a:hover{
+    color: #072AC8;
+    transition: 0.3s ease;
+    text-decoration: underline;
+  }
+
+  @media(max-width:769px){
+    #Hero{
+        display: flex;
+    margin-top: 40px;
+    height:700px;
+    flex-direction: column;
+    }
+    #Hero h1{
+        font-size: 35px;
+    }
+    #TextoHero{
+        margin: 20px;
+        width: 650px;
+    }
+    #TextoHero p{
+        font-size: 20px;
+    }
+    .Image1{
+        height: 400px;
+        width: 370px;
+    }
+    .Image2{
+        display: none;
+    }
+    .Image3{
+        display: none;
+    }
+    .cardImage3{
+        height: 130px;
+    }
+   .projectA{
+        -top: 100px !important;
+    }
+    footer {
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 5%;
+        flex-direction: column;
+    }
+  }
+  @media(max-width:390px){
+    *{
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 390px;
+        background-color: #F2F4FC;
+    }
+    body{
+        edisplay: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-family:Arial, Helvetica, sans-serif;
+        max-width: 390px;
+    }
+    .hamburger {
+        display: block;
+    }
+    
+    .opcionesMenu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+    
+    .opcionesMenu li {
+        margin: 10px 0;
+    }
+
+    .toggle-checkbox:checked + .hamburger + .opcionesMenu {
+        display: flex;
+    }
+    #TextoHero p{
+        font-size: 20px;
+        color: #383535;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        width: 330px;
+        margin-left: 0px
+     }
+     #TextoHero{
+        margin-left: 0px;
+     }
+    #Hero{
+        height: 750px;
+    }    
+    #ImagenHero {
+        width: 40%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    } 
+    .logos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+    }
+    .logos img{
+        width: 150px;
+        margin: 20px;
+    }
+   
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 380px;
+    }
+    .card{
+        width: 270px;
+    }
+    .cardImage3{
+        height: 200px;
+    }
+    .emoji{
+        display: none;
+    }
+    .cards2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0px;
+        justify-content: space-evenly;
+        margin: 0px;
+    }
+    .card2{
+        width: 270px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .CuestionsMail {
+        display: flex;
+        margin-bottom: 60px;
+        margin-top: 0px;
+        flex-direction: column;
+        background-color: #fce300;
+    }
+    .CuestionsMail label{
+        width:100px ;
+       background-color: #F2F4FC;
+    }
+    #email{
+        width: 200px;
+        background-color: #F2F4FC;
+        margin-bottom: 10px;
+    }
+    .mailButtonCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .mailButton{
+        width: 100px;
+    }
+    .Cuestions{
+        width: 90%;
+    }
+  }
