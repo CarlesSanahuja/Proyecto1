@@ -5,13 +5,18 @@
     max-width: 1200px;
     background-color: #F2F4FC;
 }
+html{
+    display: flex;
+    
+}
 body{
-    edisplay: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     font-family:Arial, Helvetica, sans-serif;
     max-width: 1200px;
+    margin-right: 0px;
+    width: 100%;
 }
 /*Navegador*/
 .navegador{
@@ -33,7 +38,11 @@ body{
 .options{
     margin-right: 20px;
 }
-
+.buttonCont{
+    background-color: #072AC8;
+    color: #F2F4FC;
+    text-decoration: none;
+}
 .first{
     color: #072AC8 !important;
 }
@@ -87,7 +96,10 @@ header{
     display: none;
     font-size: 30px;
     cursor: pointer;
-    color: white;
+    color:#383535;
+    background-color:#F2F4FC;
+    position: relative;
+    left: 200px;
 }
 .toggle-checkbox {
     display: none;
@@ -110,9 +122,13 @@ header{
     color: #383535;
     margin-top: 10px;
     margin-bottom: 25px;
+    width: 100% !important;
+ }
+ .Image1{
+    width: 250% !important;
  }
  #TextoHero{
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-content: stretch;
@@ -201,7 +217,7 @@ header{
     margin-bottom: 100px;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
  }
  .RecentProjects img{
     width: 100%;
@@ -211,11 +227,12 @@ header{
  .RecentProjects h2{
     font-size: 35px;
     line-height: 60px;
-    
+    width: 50%;
     margin-left: 50px;
  }
  .cards{
     display: flex;
+    
  }
  .cardImage3{
     height: 230px;
@@ -392,6 +409,9 @@ margin-left: 10px;
     background-position: center;
     background-color: #D1EDFF;
 }
+.Services h2{
+    width: 80%;
+}
 .serviceImage2{
     background-image: url(./services-section/icons/3.svg);
     border-radius: 50%;
@@ -422,7 +442,6 @@ margin-left: 10px;
     background-color:white;
     margin: 30px;
     background-color: white;
-    margin: 30px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: space-around;
@@ -478,6 +497,7 @@ margin-left: 10px;
     align-content: flex-end;
     justify-content: space-around;
     align-items: stretch;
+    width: 100%;
 }
 
  .CuestionsText{
@@ -528,7 +548,7 @@ margin-left: 10px;
  .mailButtonCont{
     background-color: #fce300;
  }
- input[type="email"] {
+ .mail2 {
     width: 1200px;
     height: 50px;
     text-align: center;
@@ -580,6 +600,58 @@ footer p{
     transition: 0.3s ease;
     text-decoration: underline;
   }
+  .di p{
+    width: 70%;
+    text-align: center;
+  }
+  /*Proyect*/
+.projectPrin{
+    width: 90%;
+}
+#titlePro0{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: #292E47;
+}
+.projectText{
+    display: flex;
+}
+#subtitlePro0{
+    color: #6B708D;
+    margin-top: 20px;
+   font-weight: lighter;
+}
+.projectText2{
+    display: flex;
+    margin-top: 20px;
+}
+.projectText2 h3{
+    text-align: right;
+}
+#completed{
+    width: 200px;
+    color: #6B708D;
+}
+.projectPrin p{
+    font-size: 18px;
+    color: #6B708D;
+    margin-top: 30px;
+}
+#imagePro3{
+    height: 60%;
+}
+#imagePro0{
+    width: 98%;
+    display: flex;
+    margin-top: 5%;
+    box-shadow: 10px 10px 15px rgba(244, 167, 227, 0.8);
+    transition: box-shadow 0.3s ease;
+}
+.bolt1{
+    font-weight:bold;
+}
+
 
   @media(max-width:769px){
     #Hero{
@@ -593,14 +665,14 @@ footer p{
     }
     #TextoHero{
         margin: 20px;
-        width: 650px;
+        width: 100%;
     }
     #TextoHero p{
         font-size: 20px;
     }
     .Image1{
         height: 400px;
-        width: 370px;
+        width: 1000%;
     }
     .Image2{
         display: none;
@@ -620,6 +692,24 @@ footer p{
         margin-bottom: 5%;
         flex-direction: column;
     }
+    #imagePro3{
+        height: 40% !important;
+    }
+    .projectText2 h3{
+        font-size: 15px;
+    }
+    #titlePro0{
+        font-size: 40px;
+    }
+    #subtitlePro0{
+        font-size: 15px;
+        width: 150px !important;
+    }
+    .mailPhone{
+        width: 100%;
+        flex-direction: column;
+    }
+
   }
   @media(max-width:390px){
     *{
@@ -646,7 +736,7 @@ footer p{
         flex-direction: column;
         position: absolute;
         top: 50px;
-        left: 0;
+        left: 0px;
         width: 100%;
         background-color: #333;
     }
@@ -695,8 +785,9 @@ footer p{
     .cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin: 0px;
-        width: 380px;
+        width: 100%;
     }
     .card{
         width: 270px;
@@ -710,7 +801,7 @@ footer p{
     .cards2 {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         margin: 0px;
         justify-content: space-evenly;
         margin: 0px;
@@ -748,6 +839,125 @@ footer p{
         width: 100px;
     }
     .Cuestions{
-        width: 90%;
+        width: 100%;
     }
-  }
+    .links li a {
+        text-decoration: none;
+        color:#383535;
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 13px;
+      }
+      .links li{
+        margin: 0px;
+
+      }
+      .links{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        align-items: center;
+        justify-content: space-around;
+        align-content: flex-start;
+      }
+      .logoFooter{
+        width: 20%;
+        margin-left: 38%;
+        margin-bottom: 10px;
+      }
+      .divFooter {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .divFooter p{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .botonNav{
+        margin-right: 100px;
+    }
+    .opcionesMenu{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        width: 50%;
+        background-color: #5a53531d;
+        margin-left: 208px;
+        height: 30%;
+    }
+    .options{
+        background-color: transparent;
+    }
+    .options a{
+        background-color: transparent;
+        margin-left: 100px;
+        color: #292E47 !important;
+    }
+    .options a:hover{
+        color: #072AC8 !important;
+       text-decoration: none;
+    }
+    form{
+        width: 100%;
+    }
+}
+/*Form*/
+form label{
+    background-color: #F2F4FC;
+    color: #6B708D;
+    text-align: left;
+}
+form h1{
+    font-size: 400%;
+}
+form{
+    display: block;
+    width: 96%;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10%;
+}
+form input{
+    display: block;
+    width: 100%;
+    background-color:#6b708d37;
+    border: none;
+}
+form textarea{
+    display: block;
+    width: 100%;
+}
+#email { 
+    width: 100% !important;  
+    background-color: #6b708d37;
+}
+textarea{
+    background-color: #6b708d37;
+    min-height: 200px;
+}
+form label{
+    line-height: 40px;
+    margin-left: 10px;
+}
+.mailPhone{
+    display: flex;
+}
+.phone{
+    margin-left: 10px;
+    width: 100%;
+}
+form button{
+    display: block;
+    width: 100%;
+    background-color: #072AC8;
+    border: none;
+    color: #F2F4FC;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 50px;
+}
