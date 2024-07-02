@@ -1,9 +1,8 @@
 # Nombre del Proyecto
-
 Projecto 1
+
+
 ![index projecto](https://github.com/CarlesSanahuja/Proyecto1/blob/master/Captura%20de%20pantalla%20index.png)
-
-
 ## Tabla de Contenidos
 
 - [Descripción](#descripción)
