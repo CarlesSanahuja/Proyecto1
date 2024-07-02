@@ -1,7 +1,7 @@
 # Nombre del Proyecto
 
 Projecto 1
-![Logo de mi proyecto](https://github.com/tu-usuario/mi-proyecto/raw/main/images/logo.png)
+![index projecto](https://github.com/CarlesSanahuja/Proyecto1/blob/master/Captura%20de%20pantalla%20index.png)
 
 
 ## Tabla de Contenidos
