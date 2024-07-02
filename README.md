@@ -23,10 +23,20 @@ Finalmente, desplegué el proyecto en Netlify y mantuve un repositorio en GitHub
 
 ## Funcionalidades del Proyecto
 
-- Lista de las características principales del proyecto
-- Funcionalidad 1
-- Funcionalidad 2
-- Funcionalidad 3
+Funcionalidades del Proyecto
+Navegación entre Páginas: Implementé una navegación fluida entre la página principal, la página de proyectos y la página de contacto, asegurándome de que los usuarios puedan moverse fácilmente entre las secciones del sitio web.
+
+Formulario de Contacto: Me aseguré de que todos los campos del formulario de contacto fueran obligatorios antes de permitir su envío. También validé el formulario utilizando JavaScript, mostrando alertas personalizadas cuando los datos no cumplían con los criterios establecidos.
+
+Interacción con API: Utilicé JavaScript para obtener y mostrar datos de una API en la página de proyectos. Filtré y mostré detalles específicos de proyectos según el uuid, y añadí una funcionalidad para elegir otros proyectos al azar si alguno no existía en la API.
+
+Menú Interactivo: Creé un menú interactivo que se activaba o desactivaba al hacer clic, mejorando la experiencia de usuario en dispositivos móviles y pantallas más pequeñas.
+
+Despliegue en Netlify: Desplegué el sitio web en Netlify, asegurando que estuviera accesible públicamente y optimizado para diferentes dispositivos y navegadores.
+
+Funcionalidades Adicionales: Para obtener créditos adicionales, agregué una página 404 personalizada y animaciones en diferentes secciones del sitio web, como las tarjetas de "proyectos recientes". Esto mejoró la interactividad y la estética general del sitio.
+
+Este proyecto no solo demostró mi capacidad para crear un sitio web completo desde cero, sino que también mostró mi habilidad para implementar y desplegar aplicaciones web utilizando las mejores prácticas de la industria.
 
 ## Tecnologías Utilizadas
 
