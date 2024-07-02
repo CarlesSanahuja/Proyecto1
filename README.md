@@ -1,6 +1,8 @@
 # Nombre del Proyecto
 
 Projecto 1
+![Logo de mi proyecto](https://github.com/tu-usuario/mi-proyecto/raw/main/images/logo.png)
+
 
 ## Tabla de Contenidos
 
