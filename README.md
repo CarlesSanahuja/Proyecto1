@@ -40,6 +40,7 @@ Este proyecto no solo demostró mi capacidad para crear un sitio web completo de
 
 ## Tecnologías Utilizadas
 
+- Visual Studio Code (1.90.2)
 - HTML5
 - CSS3
 - JavaScript (ES6+)
