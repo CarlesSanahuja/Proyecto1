@@ -9,6 +9,7 @@ Projecto 1
 - [Características](#Funcionalidades del Proyecto)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
+- [Presentación].(#Presentación).
 - [Autor](#autor)
 
 ## Descripción
@@ -54,6 +55,10 @@ Instrucciones para instalar y ejecutar el proyecto en un entorno local.
     cd tu-repositorio
     ```
 3. Abrir `index.html` en tu navegador.
+
+## Presentación
+
+https://docs.google.com/presentation/d/1QUS0TaAiZly69FmlU7dmNqJy_mprZK61wTRSq5NT5uU/edit?usp=sharing
 
 ## Autor
 
