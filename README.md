@@ -6,10 +6,10 @@ Projecto 1
 ## Tabla de Contenidos
 
 - [Descripción](#descripción)
-- [Funcionalidades del Proyecto](#Funcionalidades del Proyecto)
+- [Funcionalidades del Proyecto](#Funcionalidades-del-Proyecto)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
-- [Presentación].(#Presentación).
+- [Presentación](#Presentación)
 - [Autor](#autor)
 
 ## Descripción
